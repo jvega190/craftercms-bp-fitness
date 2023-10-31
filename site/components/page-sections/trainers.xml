@@ -22,8 +22,8 @@
 	<include>/site/components/personal-trainers/olivia.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></trainerList_o>
-	<createdDate>2017-5-11T17:32:19.000Z</createdDate>
-	<createdDate_dt>2017-5-11T17:32:19.000Z</createdDate_dt>
-	<lastModifiedDate>2017-5-11T17:43:14.000Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-5-11T17:43:14.000Z</lastModifiedDate_dt>
+	<createdDate>2017-05-11T17:32:19.000Z</createdDate>
+	<createdDate_dt>2017-05-11T17:32:19.000Z</createdDate_dt>
+	<lastModifiedDate>2017-05-11T17:43:14.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-05-11T17:43:14.000Z</lastModifiedDate_dt>
 </component>

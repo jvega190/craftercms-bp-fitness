@@ -22,10 +22,10 @@
 	<include>/site/components/items/price-item/rigid-body.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></items_o>
-	<createdDate>2017-5-18T16:40:33.000Z</createdDate>
-	<createdDate_dt>2017-5-18T16:40:33.000Z</createdDate_dt>
-	<lastModifiedDate>2017-5-30T20:51:33.000Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-5-30T20:51:33.000Z</lastModifiedDate_dt>
+	<createdDate>2017-05-18T16:40:33.000Z</createdDate>
+	<createdDate_dt>2017-05-18T16:40:33.000Z</createdDate_dt>
+	<lastModifiedDate>2017-05-30T20:51:33.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-05-30T20:51:33.000Z</lastModifiedDate_dt>
 	<imageBackground_s>/static-assets/images/price-bg.jpg</imageBackground_s>
 	<titleColor_s>#fff</titleColor_s>
 </component>

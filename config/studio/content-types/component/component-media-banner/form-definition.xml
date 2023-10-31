@@ -260,7 +260,7 @@
          <properties>
             <property>
                <name>repoPath</name>
-               <value>/static-assets/videos/page/{objectId/}</value>
+               <value>/static-assets/videos/page/{objectId}</value>
                <type>undefined</type>
             </property>
          </properties>
@@ -286,7 +286,7 @@
          <properties>
             <property>
                <name>repoPath</name>
-               <value>/static-assets/images/page/{objectId/}</value>
+               <value>/static-assets/images/page/{objectId}</value>
                <type>undefined</type>
             </property>
          </properties>
