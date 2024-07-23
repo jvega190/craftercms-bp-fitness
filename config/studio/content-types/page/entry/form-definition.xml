@@ -451,7 +451,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/component-catalog,/component/component-newsletter,/component/component-overview,/component/component-quotes,/component/component-service,/component/component-trainers</value>
+							<value>/component/component-catalog,/component/component-newsletter,/component/component-overview,/component/component-quotes,/component/component-trainers</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
