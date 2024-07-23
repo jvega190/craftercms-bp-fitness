@@ -198,15 +198,17 @@
 
       });
 
+      // When inserting a new component, if it's of type 'component-quote-item', reload the page to properly display
+      // the new quote on the carousel.
       craftercms.xb?.contentController?.operations$
         .pipe(
-          operators.filter(op => op.type === 'INSERT_COMPONENT_OPERATION' && op.args.contentType.id === '/component/component-quote-item')
+          operators.filter(({type, payload}) =>
+            type === 'INSERT_COMPONENT_OPERATION' && payload?.instance.craftercms.contentTypeId === '/component/component-quote-item'
+          )
         )
         .subscribe((op) => {
-          craftercms.xb.fromTopic('INSERT_OPERATION_COMPLETE')
-            .pipe(
-              operators.filter(({payload}) => payload.modelId === op.args.modelId)
-            )
+          craftercms.xb.fromTopic('INSERT_COMPONENT_OPERATION_COMPLETE')
+            .pipe(operators.filter(({payload}) => payload.modelId === op.payload?.modelId))
             .subscribe(() => {
               document.location.reload();
             })
