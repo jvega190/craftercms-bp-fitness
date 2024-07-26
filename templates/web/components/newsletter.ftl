@@ -1,16 +1,16 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<section id="newsletter" class="parallax-section">
+<@crafter.section
+	id="newsletter"
+	class="parallax-section"
+	style="background: url('${contentModel.backgroundImage_s!''}') 50% 0 repeat-y fixed"
+>
 	<div class="container">
 		<div class="row">
 
-			<div class="wow fadeInUp col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10" data-wow-delay="0.9s">
-				<@crafter.h2 $field="titleText_t">
-					${contentModel.titleText_t}
-				</@crafter.h2>
-				<@crafter.p $field="description_t">
-					${contentModel.description_t}
-				</@crafter.p>
+			<div class="wow fadeInUp col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10" data-wow-delay="500ms">
+				<@crafter.h2 $field="titleText_t:"/>
+				<@crafter.p $field="description_t:"/>
 				<div class="newsletter_detail">
 					<form id="form-submit" action="/api/1/services/message.json" method="post">
 						<div class="col-md-6 col-sm-6">
@@ -28,4 +28,4 @@
 
 		</div>
 	</div>
-</section>
+</@crafter.section>

@@ -4,7 +4,7 @@
    <description/>
    <objectType>component</objectType>
    <content-type>/component/level-descriptor</content-type>
-   <imageThumbnail>undefined</imageThumbnail>
+   <imageThumbnail />
    <properties>
       <property>
          <name>display-template</name>

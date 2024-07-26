@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/component-service</content-type>	<display-template/>
+	<content-type>/component/service</content-type>
+	<display-template/>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>143e</objectGroupId>
 	<objectId>143e210a-1a37-7c8f-e7bb-c46cd17ea110</objectId>

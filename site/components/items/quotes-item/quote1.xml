@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/component-quote-item</content-type>	<display-template/>
+	<content-type>/component/quote-item</content-type>
+	<display-template/>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>c180</objectGroupId>
 	<objectId>c180a341-1556-eac8-cfea-e7b128b98d68</objectId>

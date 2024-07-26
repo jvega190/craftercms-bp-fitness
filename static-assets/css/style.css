@@ -1,31 +1,31 @@
 
 body {
-    background: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    font-weight: 300;
+  background: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
 
-html,body {
-      width: 100%;
-     overflow-x: hidden;
-  }
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
 
 
 /*---------------------------------------
-    Typorgraphy              
+    Typorgraphy
 -----------------------------------------*/
-h1,h2,h3,h4,h5,h6,
+h1, h2, h3, h4, h5, h6,
 blockquote {
   font-weight: 600;
 }
 
 h1 {
-    font-size: 4.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-    padding-top: 12px;
+  font-size: 4.5rem;
+  line-height: 6.5rem;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  padding-top: 12px;
 }
 
 h2 {
@@ -43,7 +43,7 @@ h2 {
 }
 
 blockquote, h3 {
-   font-family: 'Lora', sans-serif;
+  font-family: 'Lora', sans-serif;
   font-style: italic;
 }
 
@@ -52,16 +52,16 @@ h3 {
 }
 
 h4 {
-    color: #999;
-    letter-spacing: 2px;
-    margin-top: 22px;
+  color: #999;
+  letter-spacing: 2px;
+  margin-top: 22px;
 }
 
 p {
-    color: #707070;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: 0.4px;
+  color: #707070;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.4px;
 }
 
 a {
@@ -75,6 +75,11 @@ VIDEO BACKGROUND CSS
 .header-video {
   overflow: hidden;
   width: 100%;
+  height: 100%;
+}
+
+.media-banner-item,
+.media-banner-component {
   height: 100%;
 }
 
@@ -102,12 +107,12 @@ VIDEO BACKGROUND CSS
 
 
 /*---------------------------------------
-    General               
+    General
 -----------------------------------------*/
 #trainer,
 .catalog-section {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 #home,
@@ -115,7 +120,7 @@ VIDEO BACKGROUND CSS
 #newsletter,
 .quotes-section,
 #blog-header,
-.catalog-section{
+.catalog-section {
   text-align: center;
 }
 
@@ -138,9 +143,8 @@ VIDEO BACKGROUND CSS
 }
 
 
-
 /*---------------------------------------
-    Preloader section              
+    Preloader section
 -----------------------------------------*/
 .preloader {
   position: fixed;
@@ -162,38 +166,43 @@ VIDEO BACKGROUND CSS
   background-color: #26253a;
   border-radius: 100%;
   -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
-          animation: sk-pulseScaleOut 1s infinite ease-in-out; }
+  animation: sk-pulseScaleOut 1s infinite ease-in-out;
+}
 
 @-webkit-keyframes sk-pulseScaleOut {
   0% {
     -webkit-transform: scale(0);
-            transform: scale(0); }
+    transform: scale(0);
+  }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 0; } }
+    transform: scale(1);
+    opacity: 0;
+  }
+}
 
 @keyframes sk-pulseScaleOut {
   0% {
     -webkit-transform: scale(0);
-            transform: scale(0); }
+    transform: scale(0);
+  }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 0; } }
-
-
+    transform: scale(1);
+    opacity: 0;
+  }
+}
 
 
 /*---------------------------------------
-    Navigation section              
+    Navigation section
 -----------------------------------------*/
 .navbar-default {
-    background: #ffffff;
-    border-bottom: 2px solid #f9f9f9;
-    box-shadow: none;
-    margin: 0 !important;
-    z-index: 1010;
+  background: #ffffff;
+  border-bottom: 2px solid #f9f9f9;
+  box-shadow: none;
+  margin: 0 !important;
+  z-index: 1010;
 }
 
 .navbar-default .navbar-brand {
@@ -205,15 +214,15 @@ VIDEO BACKGROUND CSS
 }
 
 .navbar-default .navbar-nav li a {
-    color: #999;
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 60px;
-    letter-spacing: 0.6px;
-    transition: all 0.4s ease-in-out;
-	-webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
+  color: #999;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 60px;
+  letter-spacing: 0.6px;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
 }
 
 .navbar-default .navbar-nav li a:hover {
@@ -234,24 +243,24 @@ VIDEO BACKGROUND CSS
 }
 
 .navbar-default .navbar-toggle {
-     border: none;
-     padding-top: 10px;
-  }
+  border: none;
+  padding-top: 10px;
+}
 
 .navbar-default .navbar-toggle .icon-bar {
-    color: #000;
-    border-color: transparent;
-  }
+  color: #000;
+  border-color: transparent;
+}
 
 .navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus { 
+.navbar-default .navbar-toggle:focus {
   color: #000;
   background-color: transparent;
 }
 
 
 /*---------------------------------------
-    Home section              
+    Home section
 -----------------------------------------*/
 #home {
   background: 50% 0 repeat-y fixed;
@@ -294,9 +303,8 @@ VIDEO BACKGROUND CSS
 }
 
 
-
 /*---------------------------------------
-   Overview  section              
+   Overview  section
 -----------------------------------------*/
 #overview {
   padding-top: 14rem;
@@ -346,9 +354,8 @@ VIDEO BACKGROUND CSS
 }
 
 
-
 /*---------------------------------------
-   Trainer section              
+   Trainer section
 -----------------------------------------*/
 #trainer {
   background: #f9f9f9;
@@ -369,7 +376,7 @@ VIDEO BACKGROUND CSS
   margin-top: 72px;
   margin-bottom: 32px;
   padding: 0px;
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #trainer .trainer-thumb .trainer-overlay {
@@ -401,38 +408,38 @@ VIDEO BACKGROUND CSS
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform:translate(-50%,-50%);
-      -ms-transform:translate(-50%,-50%);
-          transform:translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 
 .trainer-image {
-    height: 366px !important;
-    width: 100%;
-    object-fit: cover;
+  height: 366px !important;
+  width: 100%;
+  object-fit: cover;
 }
 
 .trainer-description {
-    height: 125px;
+  height: 125px;
 }
 
 .prices-background {
-    background-size: cover !important;
-    background-position: center center !important;
-    background-attachment: initial !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-attachment: initial !important;
 }
+
 /*---------------------------------------
-   Newsletter section              
+   Newsletter section
 -----------------------------------------*/
 #newsletter {
-    background: url('../images/newsletter-bg.jpg') 50% 0 repeat-y fixed;
-    background-size: cover !important;
-    background-position: center center !important;
-    background-attachment: initial !important;
-    color: #ffffff;
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-attachment: initial !important;
+  color: #ffffff;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
 }
 
 #newsletter .newsletter_detail {
@@ -494,7 +501,7 @@ VIDEO BACKGROUND CSS
 
 
 /*---------------------------------------
-    Blog section              
+    Blog section
 -----------------------------------------*/
 .catalog-section .blog-thumb {
   border: 1px solid #f0f0f0;
@@ -505,14 +512,25 @@ VIDEO BACKGROUND CSS
 
 .catalog-section .blog-thumb:hover {
   background: inherit;
-   -webkit-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
+
+}
+
+#blog .blog-thumb:hover h3 a,
+.catalog-section .blog-thumb:hover,
+.catalog-section .blog-thumb:hover .blog-date,
+.catalog-section .blog-thumb:hover #blog-author {
   color: #ffffff;
 }
 
-.catalog-section .blog-thumb:hover .blog-date, #blog .blog-thumb:hover h3 a,
-.catalog-section .blog-thumb:hover #blog-author {color: #ffffff;}
+.craftercms-ice-on #blog .blog-thumb:hover h3 a,
+.craftercms-ice-on .catalog-section .blog-thumb:hover,
+.craftercms-ice-on .catalog-section .blog-thumb:hover .blog-date,
+.craftercms-ice-on .catalog-section .blog-thumb:hover #blog-author {
+  color: inherit;
+}
 
 #blog .col-md-6:nth-child(2) .blog-thumb,
 #blog .col-md-6:nth-child(3) .blog-thumb {
@@ -542,20 +560,20 @@ VIDEO BACKGROUND CSS
 /* blog single page */
 
 #blog-header {
-    background: url('../images/blog-header-bg.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: bottom center;
-    color: #ffffff;
-    display: -webkit-box;
-    display: -webkit-flex;
-     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-     -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-    height: 50vh;
+  background: url('../images/blog-header-bg.jpg') 50% 0 repeat-y fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: bottom center;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50vh;
 }
 
 .catalog-section .recent-post h3 {
@@ -572,6 +590,7 @@ VIDEO BACKGROUND CSS
   padding-bottom: 18px;
   margin-bottom: 42px;
 }
+
 .catalog-section .recent-post .media:last-child {
   border-bottom: none;
 }
@@ -579,6 +598,7 @@ VIDEO BACKGROUND CSS
 .catalog-section .blog-categories {
   padding-bottom: 40px;
 }
+
 .catalog-section .blog-categories h3 {
   padding-bottom: 12px;
 }
@@ -608,6 +628,7 @@ VIDEO BACKGROUND CSS
   color: #404040;
   transition: all 0.4s ease-in-out;
 }
+
 #blog h4 a:hover {
   color: #777;
 }
@@ -644,6 +665,7 @@ VIDEO BACKGROUND CSS
   margin-top: 42px;
   margin-bottom: 42px;
 }
+
 .catalog-section .blog-author h4 {
   padding-top: 12px;
   padding-bottom: 8px;
@@ -700,19 +722,36 @@ VIDEO BACKGROUND CSS
 }
 
 .catalog-item-size {
-    height: 270px;
-    margin: 15px;
+  height: 270px;
+  margin: 15px;
 }
 
-.blog-clear { clear: both; height: 30px; }
+.craftercms-ice-on .catalog-item-size {
+  height: auto;
+}
+
+.catalog-item .xb-image {
+  display: none;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.craftercms-ice-on .catalog-item .xb-image {
+  display: block;
+}
+
+.blog-clear {
+  clear: both;
+  height: 30px;
+}
 
 /*---------------------------------------
-    Price section              
+    Price section
 -----------------------------------------*/
 .catalog-section {
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
 }
 
 .catalog-section .pricing__item {
@@ -825,6 +864,7 @@ VIDEO BACKGROUND CSS
   transform: translate3d(0, -15px, 0);
 }
 
+.craftercms-ice-on .catalog-section .pricing__action,
 .catalog-section .pricing__item:hover .pricing__action {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
@@ -842,26 +882,25 @@ VIDEO BACKGROUND CSS
     width: 100%;
     flex: none;
   }
+
   .catalog-section .pricing__item:nth-child(2) {
     border: 1px solid #fff;
   }
 }
 
 
-
 /*---------------------------------------
-    Testimonial section              
+    Testimonial section
 -----------------------------------------*/
 .quotes-section {
-    background: #ffffff;
-    color: #26253a;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+  background: #ffffff;
+  color: #26253a;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .quotes-section .fa {
   font-size: 42px;
-  padding-bottom: 14px;
 }
 
 .quotes-section h3 {
@@ -869,13 +908,12 @@ VIDEO BACKGROUND CSS
 }
 
 .owl-wrapper {
-	margin-top: 40px;
+  margin-top: 40px;
 }
 
 
-
 /*---------------------------------------
-   Footer section              
+   Footer section
 -----------------------------------------*/
 footer {
   background: #26253a;
@@ -903,50 +941,49 @@ footer .copyright-text {
 }
 
 .copyright-text a {
-	color: #707070;
-	transition: all 0.4s ease-in-out;
+  color: #707070;
+  transition: all 0.4s ease-in-out;
 }
 
 .copyright-text a:hover {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 
 /*---------------------------------------
-   Social icon             
+   Social icon
 -----------------------------------------*/
 .social-icon {
-    position: relative;
-    padding: 0;
-    margin: 0;
+  position: relative;
+  padding: 0;
+  margin: 0;
 }
 
 .social-icon li {
-    display: inline-block;
-    list-style: none;
+  display: inline-block;
+  list-style: none;
 }
 
 .social-icon li a {
-    color: #999;
-    border-radius: 100px;
-    font-size: 16px;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    vertical-align: middle;
+  color: #999;
+  border-radius: 100px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .social-icon li a:hover {
-    background: #ffffff;
+  background: #ffffff;
 }
 
 
-
 /*---------------------------------------
-   Responsive styles            
+   Responsive styles
 -----------------------------------------*/
 @media (max-width: 980px) {
 
@@ -954,12 +991,14 @@ footer .copyright-text {
     height: 65vh;
   }
 
-  #overview {text-align: center;}
+  #overview {
+    text-align: center;
+  }
 
   #overview blockquote {
     top: 260px;
     padding: 82px;
-  } 
+  }
 
   #overview .overview-detail {
     margin-left: 20px;
@@ -976,7 +1015,6 @@ footer .copyright-text {
 
 }
 
-
 @media (max-width: 768px) {
 
   #overview blockquote {
@@ -986,7 +1024,6 @@ footer .copyright-text {
   }
 
 }
-
 
 @media (max-width: 767px) {
 
@@ -1013,7 +1050,6 @@ footer .copyright-text {
 
 }
 
-
 @media (max-width: 760px) {
 
   #home {
@@ -1038,9 +1074,13 @@ footer .copyright-text {
     font-size: 24px;
   }
 
-  h3 {font-size: 18px}
+  h3 {
+    font-size: 18px
+  }
 
-  p {font-size: 17px;}
+  p {
+    font-size: 17px;
+  }
 
   #overview img {
     margin-bottom: -60px;
@@ -1055,7 +1095,9 @@ footer .copyright-text {
     font-size: 13px;
   }
 
-  footer {text-align: center;}
+  footer {
+    text-align: center;
+  }
 
   footer .col-md-5 {
     left: 0px;
@@ -1064,7 +1106,6 @@ footer .copyright-text {
   }
 
 }
-
 
 @media (max-width: 650px) {
 
@@ -1075,7 +1116,6 @@ footer .copyright-text {
   }
 
 }
-
 
 @media (max-width: 450px) {
 
@@ -1089,29 +1129,14 @@ footer .copyright-text {
 
 }
 
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .navbar-default .navbar-nav li a {
     font-size: 18px;
   }
+
   .navbar-default .navbar-brand {
     font-size: 26px;
   }
-}
-
-/* .modal-transparent */
-
-.modal-transparent {
-  background: transparent;
-}
-.modal-transparent .modal-content {
-  background: #fff;
-}
-.modal-backdrop.modal-backdrop-transparent {
-  background: #26253a;
-}
-.modal-backdrop.modal-backdrop-transparent.in {
-  opacity: .9;
-  filter: alpha(opacity=90);
 }
 
 button.btn.btn-default {
@@ -1125,7 +1150,7 @@ button.btn.btn-default {
   transition: all 0.4s ease-in-out;
 }
 
-.components-container:empty {
+.add-padding-if-empty:empty {
   padding: 50px;
 }
 
@@ -1153,6 +1178,10 @@ button.btn.btn-default {
 
 .craftercms-ice-on #home {
   margin-top: 52px;
+}
+
+html:not(.craftercms-ice-on) #owlTestimonialsTemplate {
+  display: none;
 }
 
 @media (min-width: 768px) {

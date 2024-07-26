@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/component/hero</content-type>
+	<display-template>/templates/web/components/hero.ftl</display-template>
+	<file-name>hero.xml</file-name>
+	<internal-name>Hero</internal-name>
+	<orderDefault_f>-1</orderDefault_f>
+	<objectGroupId>33d8</objectGroupId>
+	<objectId>33d84242-f254-4310-a9a9-bc5e3f4e76a8</objectId>
+	<folder-name/>
+	<createdDate>2024-07-19T13:59:38.543Z</createdDate>
+	<createdDate_dt>2024-07-19T13:59:38.543Z</createdDate_dt>
+	<lastModifiedDate>2024-07-19T13:59:38.543Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-07-19T13:59:38.543Z</lastModifiedDate_dt>
+	<h3FirstText_t>Welcome to Sparta</h3FirstText_t>
+	<h1SecondText_t><![CDATA[What is your profession?]]></h1SecondText_t>
+	<h1ThirdText_t />
+	<buttonText_t>View More (+)</buttonText_t>
+	<mediaBanner_o item-list="true">
+		<item>
+			<key>/site/components/banners/video.xml</key>
+			<value>Video Banner</value>
+			<include>/site/components/banners/video.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</mediaBanner_o>
+	<buttonSectionLink_s>#overview</buttonSectionLink_s>
+</page>

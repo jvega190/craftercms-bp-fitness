@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/component-media-banner</content-type>	<display-template/>
+	<content-type>/component/media-banner</content-type>
+	<display-template>/templates/web/components/media-banner.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>9306</objectGroupId>
 	<objectId>9306f78d-9961-f6be-c38d-a30ade5ddf65</objectId>
-	<bannerImages_o>	<item>	<bannerImage/>
-	</item>	<item>	<bannerImage/>
-	</item></bannerImages_o>
 	<file-name>video.xml</file-name>
 	<folder-name/>
 	<internal-name>Video Banner</internal-name>
@@ -14,6 +12,6 @@
 	<videoBackground_s>/static-assets/videos/gym-promotion.mp4</videoBackground_s>
 	<createdDate>2017-05-29T16:47:7.000Z</createdDate>
 	<createdDate_dt>2017-05-29T16:47:7.000Z</createdDate_dt>
-	<lastModifiedDate>2017-05-29T19:32:44.000Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-05-29T19:32:44.000Z</lastModifiedDate_dt>
+	<lastModifiedDate>2024-07-26T13:26:48.211Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-07-26T13:26:48.211Z</lastModifiedDate_dt>
 </component>

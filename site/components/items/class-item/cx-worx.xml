@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/component-catalog-item</content-type>	<display-template>/templates/web/components/catalog-item/catalog-item.ftl</display-template>
+	<content-type>/component/catalog-item</content-type>
+	<display-template>/templates/web/components/catalog-item/catalog-item.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>a0df</objectGroupId>
 	<objectId>a0dfc517-f50f-caf4-2049-5f82562230a0</objectId>
-	<classDays_o>	<item>	<day_s>T</day_s>
-	</item></classDays_o>
+	<classDays_o>
+		<item>
+			<day_s>T</day_s>
+		</item>
+	</classDays_o>
 	<file-name>cx-worx.xml</file-name>
 	<folder-name/>
 	<internal-name>CX Worx</internal-name>
