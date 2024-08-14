@@ -23,7 +23,6 @@
   ~ SOFTWARE.
   -->
 <siteUi>
-	<version>4.2.2</version>
 	<widget
 		id="craftercms.components.Preview"
 		initialEditModeOn="true"
