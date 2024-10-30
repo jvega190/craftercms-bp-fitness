@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
 <head>
-  <title>${model.title_t!""}</title>
+  <title>${contentModel.title_t!""}</title>
   <meta name="description" content="">
   <meta name="author" content="">
   <meta charset="UTF-8">
